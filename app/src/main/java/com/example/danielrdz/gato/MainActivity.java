@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     @Override
                     public void onTick(long millisUntilFinished) {
-                        tempo.setText("Segundos faltantes: " + millisUntilFinished / 1000);
+                        tempo.setText("El juego comienza en: " + millisUntilFinished / 1000);
                     }
                     @Override
                     public void onFinish() {
