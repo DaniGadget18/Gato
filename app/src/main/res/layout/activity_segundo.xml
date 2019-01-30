@@ -76,14 +76,45 @@
             android:layout_weight="1"
             android:id="@+id/boton9"
             android:textSize="30dp"/>
+
+
     </LinearLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ganador"
-        android:text="Ganador"
-        android:layout_margin="20dp"
-        android:textSize="60dp"
-        />
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ganador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="50dp" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Salirapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volver a jugar" />
+    </LinearLayout>
+
+
+
+
 </LinearLayout>
